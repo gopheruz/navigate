@@ -12,7 +12,7 @@ def extract_key(filename):
     return int(parts[0]), int(parts[1])
 
 files.sort(key=extract_key)
-
+print("hello world")
 # Har bir faylga tartib raqami berib qayta nomlash
 for index, file in enumerate(files, start=1):
     new_name = f'{index:03d}-{file}'  # 001-UNIT-1.1.mp3
